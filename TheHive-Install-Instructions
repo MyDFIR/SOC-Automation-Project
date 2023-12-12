@@ -29,6 +29,12 @@ echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://arti
 sudo apt update
 sudo apt install elasticsearch
 
+***OPTIONAL ELASTICSEARCH***
+Create a jvm.options file under /etc/elasticsearch/jvm.options.d and put the following configurations in that file.
+-Dlog4j2.formatMsgNoLookups=true
+-Xms2g
+-Xmx2g
+
 Install TheHive
 wget -O- https://archives.strangebee.com/keys/strangebee.gpg | sudo gpg --dearmor -o /usr/share/keyrings/strangebee-archive-keyring.gpg
 echo 'deb [signed-by=/usr/share/keyrings/strangebee-archive-keyring.gpg] https://deb.strangebee.com thehive-5.2 main' | sudo tee -a /etc/apt/sources.list.d/strangebee.list
