@@ -34,3 +34,6 @@ wget -O- https://archives.strangebee.com/keys/strangebee.gpg | sudo gpg --dearmo
 echo 'deb [signed-by=/usr/share/keyrings/strangebee-archive-keyring.gpg] https://deb.strangebee.com thehive-5.2 main' | sudo tee -a /etc/apt/sources.list.d/strangebee.list
 sudo apt-get update
 sudo apt-get install -y thehive
+
+Default Credentials on port 9000
+credentials are 'admin@thehive.local' with a password of 'secret'
