@@ -1,6 +1,8 @@
 If are using a mac M1, M2 or M3. I recommend you utilize the cloud to perform this project. Otherwise if you use parallels or other virtualization on your host machine, there may be some odd errors that occur.
 
-If you choose to use Digital Ocean, you will notice that it does not provide Windows as an operating system. Please follow this YouTube guide to get Windows installed. Although it is Windows server, it will work.
+If you choose to use Digital Ocean as the cloud provider, you will notice that Windows is not an option as an operating system. 
+Please follow this YouTube guide to get Windows installed. Although it is Windows server, it will work.
+
 Site: https://www.youtube.com/watch?v=wtHBDEl5DIw
 
 Once you have Windows up and running, download & install Sysmon using Olaf's configuration.
